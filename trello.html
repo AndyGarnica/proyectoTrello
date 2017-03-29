@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Trello</title>
+  </head>
+  <body>
+    <section class="intro">
+      <h1> Trello </h1>
+      <br>
+<!--lista de pendientes-->
+      <hr>
+      <label id="tituloNuevo"></label>
+      <label id="otrosPendientes"></label>
+      <h5>Agregar Lista</h5>
+      <input type="text" name="titulo" id="titulo" placeholder="Escribir Titulo"</input>
+      <button id="agregar" value="Agregando" onclick="agrearTitulo();"> Agregar Título </button>
+      <input type="text" name="newPendientes" id="newPendientes" placeholder="Escribir pendientes"</input>
+      <button id="agregar" value="Agregando" onclick="agrearNewPendientes();"> Agregar Pendientes </button>
+    <hr>
+    </section>
+
+    <script src="js/trello.js"></script>
+  </body>
+</html>
